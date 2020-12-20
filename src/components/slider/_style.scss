@@ -1,0 +1,33 @@
+
+ .cph4-ant-layout-sider{
+    padding-bottom: 0px; 
+    
+    .ant-layout-sider-trigger{
+        z-index: 999 !important;
+        position: absolute;
+        top: 50%; 
+        right: -20px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px !important;
+        height: 50px;
+        font-size: 16px;
+        text-align: center;
+        background: #1890ff;
+        cursor: pointer;
+        pointer-events: auto;
+      }
+      .ant-layout-sider-trigger:hover{
+        background: #047dee;
+      } 
+      .ant-layout-sider-children{
+        overflow: auto !important;
+        height:100% !important;
+        background: #fff; 
+      }
+      .ant-menu-submenu-inline{
+        background-color: #fff;
+      }
+  }
+ 
